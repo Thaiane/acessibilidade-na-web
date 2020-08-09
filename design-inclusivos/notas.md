@@ -6,7 +6,7 @@ O conteúdo para pessoas cegas será detalhado em outro módulo.
 - Como argumentar sobre investir em acessibilidade em um projeto?
 Um argumento que convence empresas é pensar na quantidade de possíveis clientes perdidos. 
 No Brasil, estima-se que  25% da população tenha algum tipo de deficiência, seja física ou cognitiva.
-Além disso, temos incentivos legais para garantir a inclusão também.
+Além disso, temos incentivos [legais](https://www.acessoparatodos.com.br/acessibilidadeweb.php) para garantir a inclusão também. 
 
 Para continuarmos a falar sobre a interface, é possível consultar a documentação da [W3C](https://www.w3.org/WAI/standards-guidelines/wcag/), 
 organização responsável por definir as normas dirigidas para a parte de Front-end, 
