@@ -19,9 +19,12 @@
 *Testos capitalizadosou em caixa-alta SEMPRE em `css` nunca `html`. Dessa forma vai manter a visualização
 e nao impactar no leitor de tela.
 
-* Toda imagem precisa ter um `alt` associado para descrever a imagem. E descrever de forma simples e essencial. Isso ajuda no SEO também.
+* Toda imagem precisa ter um `alt` associado para descrever a imagem. E descrever de forma simples e essencial. 
+Isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer todos entenderem o que era a imagem.
 
-* Marque o ínicio do conteúdo e adicione um link para ele. Isso já vira um atalho para ir direto ao conteúdo. Se possível primeiro link da página.
+* Se o alt tem valor apenas para visualização, então coloca alt vazio.``
+
+* Marque o ínicio do conteúdo e adicione um link para ele. Isso já vira um atalho par`a ir direto ao conteúdo. Se possível primeiro link da página.
 
 * Marque os ``landark roles`` do aria. Alguns leitores de tela usam isso para navegar:
 
@@ -47,10 +50,27 @@ e nao impactar no leitor de tela.
 
 * Podemos usar o <desc>` ou `<longdesc>` para descrever.
 
+* Use o title para descrever o svg, entretando isso nao funciona para todos os navegadores.
+
 * Exemplo de imagem de logo com link: 
 ```<a href="#"><img src="img/10-aplicativos-mais baratos.png" alt= "Vai para algum lugar></a>```
 
-* Tste seu site com CSS e Javascript desabilitado. Veja se o HTML está fazendo sentido.
+* Teste seu site com CSS e Javascript desabilitado. Veja se o HTML está fazendo sentido.
+
+* O CSS pode afetar a acessibilidade. Por exemplo, o elemento <ul> deve ser usado com a declaração
+`list-style: none;` para evitar que o leitor leia "bolinha". Detalhes abaixo:
+
+```
+.secaoPlanos-plano-itens {
+    text-align: left;
+    padding-left: 30px;
+    margin: 1em auto 1.5em auto;
+    line-height: 2;
+    list-style: none; // antes era desc, mas ai o leitor ficava lendo "bolinha" para cada item
+    color: #666;
+    width: 240:
+}
+```
 
 * Considere diferentes contexto de uso: idade, deficiencias...
 
