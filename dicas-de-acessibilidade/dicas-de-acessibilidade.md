@@ -2,6 +2,8 @@
 
 * Declarar a linguagem do documento. É importante para o leitor saber qual linguagem do site.
 
+* Atributo ```<lang>``` é super importante para o leitor saber qual idioma do texto.
+
 * Ter um `<h1>` na página declarando o título da página.
 
 * Fazer a divisão adequada dos textos com títulos usando tags `html`.
@@ -42,6 +44,11 @@ e nao impactar no leitor de tela.
 * Assegura contraste adequado entre fonte e cores/imagem de fundo. Usar ``background-color`` também no container para caso a imagem não carregue.
 
 * Não associar informações somente a cores.
+
+* Podemos usar o <desc>` ou `<longdesc>` para descrever.
+
+* Exemplo de imagem de logo com link: 
+```<a href="#"><img src="img/10-aplicativos-mais baratos.png" alt= "Vai para algum lugar></a>```
 
 * Tste seu site com CSS e Javascript desabilitado. Veja se o HTML está fazendo sentido.
 
