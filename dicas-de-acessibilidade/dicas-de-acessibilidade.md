@@ -76,6 +76,15 @@ Isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer to
 
 * Para constraste de cores podemos verificar em sites de ```contraste check```.
 
+* Sobre figuras, podemos usar o ``<figure>`` para marcar uma foto e o elemento `<figcaption>` 
+para definir a legenda da foto/figura:
+```
+<figure>
+   <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+   <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+```
+
 * Considere diferentes contexto de uso: idade, deficiencias...
 
 Fonte: (palestra da Talita)[https://www.youtube.com/watch?v=4URTZHk6tz0]
