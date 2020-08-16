@@ -87,6 +87,9 @@ para definir a legenda da foto/figura:
 * Use o ``for`` e `id` para linkar o label com um input, assim será possível ouvir a label
  quando for preencher um formulario.
  
+* Prefira ``readonly`` no lugar de `disabled` em campos de formularios. Isso porque o desabilitado
+não informa ao leitor de tela que esse campo é somente leitura.
+
 * Sobre Wai-aria acesse a [documentação](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#What_is_WAI-ARIA)
 
 * Considere diferentes contexto de uso: idade, deficiencias...
