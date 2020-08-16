@@ -34,6 +34,13 @@ Isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer to
         </video>
 ```
 
+* Uma forma de manter botões descritivos sem ferir o design é usar um span escondido:
+
+```
+          <button class="btnPadrao secaoPlanos-plano-btn">
+            Assinar plano <span class="escondeVisualmente">Start por R$ 500,00</span>
+          </button>
+```
 * Marque os ``landark roles`` do aria. Alguns leitores de tela usam isso para navegar:
 
 ``` 
