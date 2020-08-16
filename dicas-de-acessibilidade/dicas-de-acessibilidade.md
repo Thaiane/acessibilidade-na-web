@@ -85,9 +85,11 @@ para definir a legenda da foto/figura:
 </figure>
 ```
 
+* Sobre Wai-aria acesse a [documentação](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#What_is_WAI-ARIA)
+
 * Considere diferentes contexto de uso: idade, deficiencias...
 
-Fonte: (palestra da Talita)[https://www.youtube.com/watch?v=4URTZHk6tz0]
+Fonte: [palestra da Talita](https://www.youtube.com/watch?v=4URTZHk6tz0)
 * https://uxmag.com/articles/15-website-accessibility-tips-that-increase-everyone%E2%80%99s-engagement
 * https://www.webfx.com/blog/web-design/10-simple-web-accessibility-tips-you-can-do-today/
 * https://webdesign.tutsplus.com/articles/6-tips-for-improving-website-accessibility--webdesign-1660
