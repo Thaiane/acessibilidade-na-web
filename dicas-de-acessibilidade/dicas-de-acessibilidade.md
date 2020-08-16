@@ -26,6 +26,14 @@ Isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer to
 
 * Marque o ínicio do conteúdo e adicione um link para ele. Isso já vira um atalho par`a ir direto ao conteúdo. Se possível primeiro link da página.
 
+* Para colocar videos de forma mais acessivel use as tags html5: 
+
+```
+        <video src="img/formacao-java.mp4" class="secaoInstitucional-video" controls>
+          <track src="img/legenda-portugues-brasil.vtt" kind="subtitles" srclang="pt-br" label="Português">
+        </video>
+```
+
 * Marque os ``landark roles`` do aria. Alguns leitores de tela usam isso para navegar:
 
 ``` 
