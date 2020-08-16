@@ -42,6 +42,8 @@ Isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer to
     <p class="copyright" role="contentinfo">
 ```
 
+* Esse site possui todas as `rolas` que tem disponiveis: https://www.w3.org/TR/using-aria/#intro
+
 * Não use ``clique aqui`` para links. Os textos dos links não fazem sentido para quem varre o site pelos links.
 
 * Assegura contraste adequado entre fonte e cores/imagem de fundo. Usar ``background-color`` também no container para caso a imagem não carregue.
@@ -71,6 +73,8 @@ Isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer to
     width: 240:
 }
 ```
+
+* Para constraste de cores podemos verificar em sites de ```contraste check```.
 
 * Considere diferentes contexto de uso: idade, deficiencias...
 
