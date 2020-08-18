@@ -1,4 +1,5 @@
 var btns = document.querySelectorAll('.listaDeArtigos-slider-item');
+var noticias = document.querySelectorAll('.listaDeArtigos-item');
 
 var new0 = document.querySelector('#new0');
 var new1 = document.querySelector('#new1');
@@ -15,22 +16,20 @@ indicadorSlideAtual.textContent = '(Slide atual)';
 btns.forEach(function(btn) {
   btn.addEventListener('click', function() {
 
-    if (this.getAttribute('data-sliderItem') === '0') {
-      new0.style.display = 'block';
-      new1.style.display = 'none';
-      new2.style.display = 'none';
-    } else if (this.getAttribute('data-sliderItem') === '1') {
-      new0.style.display = 'none';
-      new1.style.display = 'block';
-      new2.style.display = 'none';
-    } else {
-      new0.style.display = 'none';
-      new1.style.display = 'none';
-      new2.style.display = 'block';
-    }
+    // Esse código tira o comportamento de focar na noticia quando selecionamos outro botão, mas isso atrapalha o leitor de tela.
+    // btn.href = 'javascript:void(0)'
 
-    document.querySelector('.listaDeArtigos-slider-item .escondeVisualmente').remove();
-    this.append(indicadorSlideAtual);
+    noticias.forEach(function(noticia) {
+      noticia.style.display = 'none';
+
+      if ( this.getAttribute('data-sliderItem') === noticia.getAttribute('data-noticia'))
+    {
+      noticia.style.display = 'block'
+    }
+  }.bind(this));
+
+  document.querySelector('.listaDeArtigos-slider-item .escondeVisualmente').remove();
+  this.append(indicadorSlideAtual);
 
     // Remove classe 'ativo' dos outros botoes
     btns.forEach(function(btnRemoveClass) {
