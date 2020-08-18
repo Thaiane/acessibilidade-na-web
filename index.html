@@ -66,19 +66,17 @@
   </header>
 
   <main class="conteudo" role="main">
-
     <section class="secaoDestaque">
-      <h1 class="secaoDestaque-titulo" id="pularConteudo">
+      <h1 class="secaoDestaque-titulo" id="conteudoPrincipal">
         APLICATIVOS NA MEDIDA
       </h1>
-<!--      tentar usar legend-->
       <p class="secaoDestaque-texto">
         A Apeperia é uma startup com um jeito inovador de comprar e montar aplicativos mobile e web para pequenas e médias empresas
       </p>
 
-      <div class="secaoDestaque-cta btnPadrao">
+      <button class="secaoDestaque-cta btnPadrao">
         Conheça os planos
-      </div>
+      </button>
     </section>
 
     <section class="secaoDiferenciais">
@@ -302,33 +300,9 @@
           Receber destaques por email
         </button>
       </div>
-      <div class="dialogNewsletter" id="dialogNewsletter" role="dialog" aria-labelledby="tituloDialog">
-        <div class="dialogNewsletter-body">
-          <h2 class="dialogNewsletter-titulo" id="tituloDialog">News sem spam</h2>
-          <h3 class="dialogNewsletter-texto">
-            Assine nossa newsletter para receber notícias técnicas sem spam!
-          </h3>
-          <form class="dialogNewsletter-form">
-            <label class="dialogNewsletter-label" for="emailNewsletter">
-              Email:
-            </label>
-            <input type="email" class="dialogNewsletter-campo" placeholder="Digite seu e-mail..." id="emailNewsletter">
-            <button class="dialogNewsletter-btn" type="submit">
-              Assinar newsletter
-            </button>
-            <button class="dialogNewsletter-fechar" type="button" aria-label="Fechar janela modal">
-              Fechar modal
-            </button>
-          </form>
-        </div>
-        <div class="dialogNewsletter-overlay"></div>
-      </div> <!--fim .dialogNewsletter-->
-      
+
 
     </section> <!--fim .secaoDestaques-->
-
-<!--    O inert desativa o foco de algo-->
-
 
     <section class="secaoContato">
       <div class="container">
@@ -422,16 +396,16 @@
           <p>
             Um pouco mais sobre a Apeperia
           </p>
-          <p class="secaoInstitucional-endereco">
+          <address class="secaoInstitucional-endereco">
             Rua Vergueiro, 3185 <br> Vila Mariana, São Paulo
-          </p>
+          </address>
           <p class="secaoInstitucional-telefone">
             (11) 5571-2751 ou <a href="#"> contato@apeperia.com</a>
           </p>
         </div>
 
         <video src="img/formacao-java.mp4" class="secaoInstitucional-video" controls>
-          <track src="img/legenda-portugues-brasil.vtt" kind="subtitles" srclang="pt-br" label="Português">
+          <track src="img/legenda-portugues-brasil.vtt" kind="subtitles" srclang="pt-br" label="Português (Brasil)">
         </video>
 
       </div>
@@ -441,7 +415,7 @@
   <footer class="rodape">
     <div class="container">
 
-      <img src="img/logo-apeperia.svg" class="rodape-logo" alt="Apeperia">
+      <img src="img/logo-apeperia.svg" class="rodape-logo" alt="Logotipo apeperia">
 
       <ul class="rodape-social">
         <li>
@@ -469,12 +443,38 @@
           <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Destaques</a></li>
           <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Institucional</a></li>
           <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Contato</a></li>
-        </ul>  
+        </ul>
       </nav>
     </div>
+
   </footer>
-  <script src="js/carousel.js"></script>
-  <script src="js/inert.js"></script>
+</div>
+
+
+<div class="dialogNewsletter" id="dialogNewsletter" role="dialog" aria-labelledby="tituloDialog">
+  <div class="dialogNewsletter-body">
+    <h2 class="dialogNewsletter-titulo" id="tituloDialog">News sem spam</h2>
+    <h3 class="dialogNewsletter-texto">
+      Assine nossa newsletter para receber notícias técnicas sem spam!
+    </h3>
+    <form class="dialogNewsletter-form">
+      <label class="dialogNewsletter-label" for="emailNewsletter">
+        Email:
+      </label>
+      <input type="email" class="dialogNewsletter-campo" placeholder="Digite seu e-mail..." id="emailNewsletter">
+      <button class="dialogNewsletter-btn" type="submit">
+        Assinar newsletter
+      </button>
+      <button class="dialogNewsletter-fechar" type="button" aria-label="Fechar janela modal">
+        Fechar modal
+      </button>
+    </form>
+  </div>
+  <div class="dialogNewsletter-overlay"></div>
+</div> <!--fim .dialogNewsletter-->
+
+<script src="js/carousel.js"></script>
+<script src="js/inert.js"></script>
 <script src="js/dialog.js"></script>
 </body>
 </html>
