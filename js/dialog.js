@@ -9,9 +9,8 @@ btnAbreDialog.style.display = 'block';
 
 btnAbreDialog.addEventListener('click', function() {
   dialog.classList.add('dialogNewsletter--aberto');
-  document.querySelector('.dialogNewsletter-campo').focus();
+  document.querySelector('.dialogNewsletter-label').focus();
 });
-
 function fechandoDialog() {
   document.activeElement.blur();
   dialog.classList.remove('dialogNewsletter--aberto');     
