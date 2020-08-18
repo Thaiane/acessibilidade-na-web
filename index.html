@@ -302,34 +302,35 @@
           Receber destaques por email
         </button>
       </div>
-
       <div class="dialogNewsletter" id="dialogNewsletter" role="dialog" aria-labelledby="tituloDialog">
         <div class="dialogNewsletter-body">
-
           <h2 class="dialogNewsletter-titulo" id="tituloDialog">News sem spam</h2>
           <h3 class="dialogNewsletter-texto">
             Assine nossa newsletter para receber notícias técnicas sem spam!
           </h3>
           <form class="dialogNewsletter-form">
-            <label class="dialogNewsletter-label" for="email-form">
+            <label class="dialogNewsletter-label" for="emailNewsletter">
               Email:
             </label>
-            <input type="email" class="dialogNewsletter-campo" id="email-form" placeholder="Digite seu e-mail...">
+            <input type="email" class="dialogNewsletter-campo" placeholder="Digite seu e-mail..." id="emailNewsletter">
             <button class="dialogNewsletter-btn" type="submit">
               Assinar newsletter
             </button>
-            <button class="dialogNewsletter-fechar" type="button">
-              X
+            <button class="dialogNewsletter-fechar" type="button" aria-label="Fechar janela modal">
+              Fechar modal
             </button>
           </form>
         </div>
         <div class="dialogNewsletter-overlay"></div>
       </div> <!--fim .dialogNewsletter-->
+      
 
     </section> <!--fim .secaoDestaques-->
 
 <!--    O inert desativa o foco de algo-->
-    <section class="secaoContato" inert="true">
+
+
+    <section class="secaoContato">
       <div class="container">
         <h2 class="tituloPadrao">
           CONTATO
@@ -343,52 +344,52 @@
           </p>
 
           <div class="contatoCampo contatoCampo--sucesso">
-            <label for="nome" >Nome: </label>
-            <input id="nome" type="text" class="contatoCampo--validouFoi" required>
-          </div>  
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" class="contatoCampo--validouFoi" placeholder="Nome..." required>
+          </div>
 
           <div class="contatoCampo contatoCampo--erro">
             <label for="email">Email: </label>
-            <input id="email" type="email" class="contatoCampo--validouErro" required>
+            <input type="email" id="email" class="contatoCampo--validouErro" placeholder="Email.." required>
             <span class="contatoCampo-msg contatoCampo-msg--erro">
-              Você quis dizer <a href="#">gmail.com?</a>
-            </span>
+                Você quis dizer <a href="#">gmail.com?</a>
+              </span>
           </div>
 
           <div class="contatoCampo contatoCampo--erro">
-            <label for="telefone">Telefone: </label>
-            <input id="telefone" type="text" class="contatoCampo--validouErro" placeholder="(11) 5571-2751">
+            <label>Telefone: </label>
+            <input type="text" class="contatoCampo--validouErro" placeholder="(11) 5571-2751">
             <span class="contatoCampo-msg contatoCampo-msg--erro">Faltou o DDD</span>
-          </div>     
-
-          <div class="contatoCampo">
-            <label for="cep">CEP: </label>
-            <input id="cep" type="text" maxlength="8" placeholder="Exemplo: 04101-300" required>
           </div>
 
           <div class="contatoCampo">
-            <label for="endereço">Endereço: </label>
-            <input id="endereço" type="text" class="contatoCampo-campoDesabilitado" readonly value="Rua Vergueiro">
-          </div>   
+            <label>CEP: </label>
+            <input type="text" maxlength="8" placeholder="Exemplo: 04101-300" required>
+          </div>
 
           <div class="contatoCampo">
-            <label for="bairro">Bairro: </label>
-            <input id="bairro" type="text" class="contatoCampo-campoDesabilitado" readonly value="Vila Mariana">
-          </div>   
+            <label>Endereço: </label>
+            <input type="text" class="contatoCampo-campoDesabilitado" readonly value="Rua Vergueiro">
+          </div>
 
           <div class="contatoCampo">
-            <label for="cidade">Cidade: </label>
-            <input id="cidade" type="text" class="contatoCampo-campoDesabilitado" readonly value="São Paulo">
-          </div>   
+            <label>Bairro: </label>
+            <input type="text" class="contatoCampo-campoDesabilitado" readonly value="Vila Mariana">
+          </div>
 
           <div class="contatoCampo">
-            <label for="estado">Estado: </label>
-            <input id="estado" type="text" class="contatoCampo-campoDesabilitado" readonly value="SP">
-          </div>   
+            <label>Cidade: </label>
+            <input type="text" class="contatoCampo-campoDesabilitado" readonly value="São Paulo">
+          </div>
 
           <div class="contatoCampo">
-            <label for="mensagem">Mensagem: </label>
-            <textarea id="mensagem" name="" cols="30" rows="10" required></textarea>
+            <label>Estado: </label>
+            <input type="text" class="contatoCampo-campoDesabilitado" readonly value="SP">
+          </div>
+
+          <div class="contatoCampo">
+            <label>Mensagem: </label>
+            <textarea name="" cols="30" rows="10" required></textarea>
           </div>
 
           <div class="contatoCampo">
@@ -401,8 +402,8 @@
               Enviar mensagem
             </button>
             <span class="contatoCampo-msg contatoCampo-msg--erro secaoContatoForm-validacao">
-              Verifique os erros acima
-            </span>
+                Verifique os erros acima
+              </span>
           </div>
 
         </form>
