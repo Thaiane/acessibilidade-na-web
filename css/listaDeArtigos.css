@@ -19,18 +19,6 @@
   display: none;
 }
 
-
-.listaDeArtigos-item:not(:target):first-child{
-  display: inline-block;
-}
-
-.listaDeArtigos-item:target {
-  display: inline-block;
-}
-
-
-
-
 .listaDeArtigos-artigo-img {
   width: 100%;
   display: block;
