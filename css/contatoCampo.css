@@ -5,6 +5,10 @@
   position: relative;
 }
 
+.contatoCampo-label {
+  position: relative;
+}
+
 .contatoCampo-label:before {
   content:'';
   vertical-align: middle;
@@ -17,17 +21,45 @@
   border: 1px solid #7D7D7D;
   color: transparent;
   line-height: 1;
-  transition: .2s ease-in;
+  box-sizing: border-box;
+  transition: background-color .2s ease-in, color .2s ease-in;
+}
+
+.contatoCampo-checkbox:hover + .contatoCampo-label:before,
+.contatoCampo-checkbox:focus + .contatoCampo-label:before {
+  border: 4px solid #333;
+  box-sizing: border-box;
 }
 
 .contatoCampo-checkbox:checked + .contatoCampo-label:before {
-  content: 'x';
+  content: '';
   color: #fff;
   background-image: radial-gradient(circle, #2DA4E7, #2F80ED);
+  border: 0;
+  line-height: .8;
+}
+
+.contatoCampo-checkbox:checked + .contatoCampo-label:after {
+  content: '';
+  width: 10px;
+  height: 5px;
+  display: block;
+  /*     background-color: #000; */
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: rotate(-45deg);
+  position: absolute;
+  z-index: 2;
+  left: -3px;
+  top: 5px;
 }
 
 .contatoCampo-checkbox {
-  display: none;
+  /*  display: none;*/
+  /*  visibility: hidden*/
+  left: -9999px;
+  position: absolute;
+  opacity: 0;
 }
 
 .contatoCampo-icone {
@@ -38,17 +70,17 @@
 }
 
 .contatoCampo label,
-.contatoCampo input,
+.contatoCampo input:not([type='checkbox']),
 .contatoCampo textarea {
   display: block;
   width: 100%;
   text-align: left;
-} 
+}
 
 .contatoCampo label {
   margin-bottom: 5px;
   margin-left: 8px;
-} 
+}
 
 .contatoCampo input,
 .contatoCampo textarea {
@@ -58,18 +90,18 @@
   border-radius: 8px;
   border: 2px solid #ccc;
   outline: 0;
-} 
+}
 
 .contatoCampo input:focus,
 .contatoCampo textarea:focus {
   border: 2px solid #222;
-} 
+}
 
 .contatoCampo-campoDesabilitado {
   background-color: #ddd;
 }
 
-.contatoCampo-msg, 
+.contatoCampo-msg,
 .formContato-validacao {
   margin-left: 4px;
   margin-top: 4px;
