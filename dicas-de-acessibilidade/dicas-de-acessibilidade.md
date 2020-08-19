@@ -109,6 +109,10 @@ não informa ao leitor de tela que esse campo é somente leitura.
 
 * Considere diferentes contexto de uso: idade, deficiencias...
 
+* Ótimo guia e acessibilidade é o [a11y style guide](https://a11y-style-guide.com/style-guide/).
+
+* Artigo [11 dicas e boas práticas para deixar seu site acessível.](http://blog.handtalk.me/acessibilidade-ranking-google/)
+
 Fonte: [palestra da Talita](https://www.youtube.com/watch?v=4URTZHk6tz0)
 * https://uxmag.com/articles/15-website-accessibility-tips-that-increase-everyone%E2%80%99s-engagement
 * https://www.webfx.com/blog/web-design/10-simple-web-accessibility-tips-you-can-do-today/
