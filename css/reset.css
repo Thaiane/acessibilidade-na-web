@@ -5,7 +5,9 @@
   font-family: 'Open Sans', 'Segoe UI', sans-serif;
 }
 
-
+fieldset {
+  border: 0;
+}
 
 ul {
   list-style: none;
