@@ -35,12 +35,3 @@ document.addEventListener('keyup', function(evento) {
     fechandoDialog()
   }
 })
-
-
-
-
-
-
-
-
-
