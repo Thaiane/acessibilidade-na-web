@@ -118,3 +118,7 @@ Fonte: [palestra da Talita](https://www.youtube.com/watch?v=4URTZHk6tz0)
 * https://www.webfx.com/blog/web-design/10-simple-web-accessibility-tips-you-can-do-today/
 * https://webdesign.tutsplus.com/articles/6-tips-for-improving-website-accessibility--webdesign-1660
 * https://webaccess.berkeley.edu/resources/tips/web-accessibility
+* https://wave.webaim.org/
+* https://achecker.ca/checker/index.php
+* https://elo7.dev/um-pouco-sobre-css-js-a11y/
+* https://webaim.org/techniques/keyboard/#testing
