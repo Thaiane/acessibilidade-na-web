@@ -7,6 +7,20 @@
 
 ### Dicas Gerais
 
+ - Utilize a valorize usar o HTML respeitando a sua semântica proposta. Isso é importante para diversos recursos
+   do leitor de tela.
+ - Mantenha apenas um `<h1>` nor página. Esse título deve ser o mais importante.
+ - Fazer a divisão adequada dos textos com títulos usando tags HTML. Seja elas `<p>`, `<h2>`, entre outros.
+ - Toda imagem precisa ter um alt associado para descrever a imagem. E descrever de forma simples e essencial. 
+   Além da a11y, isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer todos entenderem o
+   que era ilustrado ali.
+
+#### Idioma
+
+ - Declarar a linguagem do documento é importante para o leitor saber qual o idioma dos textos.
+ - Usamos o tributo ```<lang>``` no início do arquivo html ou sempre que tivermos uma frase em um idioma do resto do arquivo.
+
+
 #### Modal
 #### Carousel
 #### Formulário 
