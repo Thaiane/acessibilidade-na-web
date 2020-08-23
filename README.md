@@ -14,6 +14,11 @@
  - Toda imagem precisa ter um alt associado para descrever a imagem. E descrever de forma simples e essencial. 
    Além da a11y, isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer todos entenderem o
    que era ilustrado ali.
+ - Se o alt tem valor apenas para visualização, então coloca alt vazio.
+ - Não use ``clique aqui`` para links. Os textos dos links não fazem sentido para quem varre o site pelo
+  leitor de tela buscando os links.
+ - Não associar informações somente a cores. Vermelho para errado ou categorias por cores. Isso prejudica o entendimento
+  para quem tem algum problema de visão.
 
 #### Idioma
 
@@ -30,7 +35,7 @@
 * Curso de [Acessibilidade na WEB](https://www.alura.com.br/formacao-acessibilidade-web) do [Alura](https://www.alura.com.br/)
 * [Documentação do WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#What_is_WAI-ARIA)
 * [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
-* 
+* [Todos os roles disponíveis](https://www.w3.org/TR/using-aria/#intro)
 
 ### Autora
 

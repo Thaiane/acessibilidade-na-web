@@ -57,7 +57,7 @@ Isso ajuda no SEO também e quando a imagem não carrega, o alt ajuda a fazer to
     <p class="copyright" role="contentinfo">
 ```
 
-* Esse site possui todas as `rolas` que tem disponiveis: https://www.w3.org/TR/using-aria/#intro
+* Esse site possui todas as `roles` que tem disponiveis: https://www.w3.org/TR/using-aria/#intro
 
 * Não use ``clique aqui`` para links. Os textos dos links não fazem sentido para quem varre o site pelos links.
 
